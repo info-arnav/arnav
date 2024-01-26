@@ -24,7 +24,14 @@ export default function Navigation() {
             maxWidth: 1000,
           }}
         >
-          <div style={{ flex: 1, display: "flex", justifyContent: "left" }}>
+          <div
+            style={{
+              flex: 1,
+              display: "flex",
+              justifyContent: "left",
+              marginLeft: 15,
+            }}
+          >
             <span
               style={{
                 backgroundColor: "#939393",
