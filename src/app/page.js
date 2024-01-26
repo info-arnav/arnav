@@ -1,10 +1,12 @@
+import BoxElement from "./components/grid_block";
+
 export default function Home() {
   return (
     <>
       <div
         style={{
           display: "flex",
-          minHeight: "calc(100vh - 115px)",
+          minHeight: "calc(100vh - 200px)",
           alignItems: "center",
           justifyContent: "center",
         }}
@@ -47,51 +49,141 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <center>
-        <svg class="arrows">
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+        }}
+      >
+        <p>Projects Coming Up</p>
+        <svg class="arrows" style={{ marginTop: 10 }}>
           <path class="a1" d="M0 0 L7.935 7.935 L15.87 0"></path>
           <path class="a2" d="M0 10 L7.935 17.935 L15.87 10"></path>
           <path class="a3" d="M0 20 L7.935 27.935 L15.87 20"></path>
         </svg>
-      </center>
+      </div>
       <div
+        className="project_grid"
         style={{
           display: "flex",
-          minHeight: "calc(100vh - 100px)",
-          alignItems: "center",
           justifyContent: "center",
+          alignItems: "center",
+          minHeight: "calc(100vh - 200px)",
         }}
-        className="portfolio_banner banner"
       >
         <div
+          className="project_sub_grid"
           style={{
-            flex: 1,
-            maxWidth: "50%",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            padding: 20,
           }}
         >
-          <img
-            src="/assets/avatar_standing.png"
-            alt="Standing Avatar"
-            atyle={{ maxHeight: "100%", maxWidth: "100%" }}
-          ></img>
+          <a href="https://nsut.alumninet.in">
+            <div
+              className="project_box"
+              style={{
+                borderRadius: 20,
+                flex: 1,
+                maxWidth: 250,
+                height: 350,
+                margin: 10,
+                padding: 20,
+                backgroundColor: "#D9D9D9",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <p style={{ fontWeight: "bold" }}>Nalum</p>
+              <p style={{ fontSize: 14 }}>
+                The official Alumni Portal of netaji Subhas University of
+                Technology.
+              </p>
+              <div
+                style={{
+                  flex: 1,
+                  backgroundImage: "url('/assets/nalum.png')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "bottom center",
+                }}
+              ></div>
+            </div>
+          </a>
+          <a href="https://github.com/info-arnav/face-change">
+            <div
+              className="project_box"
+              style={{
+                borderRadius: 20,
+                flex: 1,
+                maxWidth: 250,
+                height: 350,
+                margin: 10,
+                padding: 20,
+                backgroundColor: "#5CE1E6",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <p style={{ fontWeight: "bold" }}>Deep Fake</p>
+              <p style={{ fontSize: 14 }}>
+                A program to create deepfakes via face and text replacement.
+              </p>
+              <div
+                style={{
+                  flex: 1,
+                  backgroundImage: "url('/assets/deepfake.png')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "bottom center",
+                }}
+              ></div>
+            </div>
+          </a>
+          <div className="interchanged_one">
+            <BoxElement></BoxElement>
+          </div>
         </div>
         <div
+          className="project_sub_grid"
           style={{
-            flex: 1,
-            maxWidth: "50%",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            padding: 20,
-            overflow: "hidden",
-            wordBreak: "break-word",
           }}
         >
-          <h1 style={{ fontSize: 75 }}>Portfolio</h1>
+          <div className="interchanged_two" style={{ display: "none" }}>
+            <BoxElement></BoxElement>
+          </div>
+          <a href="https://daisforall.com">
+            <div
+              className="project_box"
+              style={{
+                borderRadius: 20,
+                flex: 1,
+                maxWidth: 250,
+                height: 350,
+                margin: 10,
+                padding: 20,
+                backgroundColor: "#FDF5EC",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <p style={{ fontWeight: "bold" }}>DaisForAll</p>
+              <p style={{ fontSize: 14 }}>
+                A article sharing site, usually used by my family and friends.
+              </p>
+              <div
+                style={{
+                  flex: 1,
+                  backgroundImage: "url('/assets/daisforall.png')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "bottom center",
+                }}
+              ></div>
+            </div>
+          </a>
         </div>
       </div>
     </>

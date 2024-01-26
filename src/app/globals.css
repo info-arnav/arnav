@@ -48,7 +48,7 @@ p {
     max-width: 400px !important;
   }
   h1 {
-    font-size: 60px;
+    font-size: 60px !important;
   }
 }
 
@@ -58,8 +58,41 @@ p {
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .project_grid {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .interchanged_one {
+    display: none !important;
+  }
+  .interchanged_two {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .project_sub_grid {
+    flex-direction: column !important;
+  }
+  .project_box {
+    max-width: 300px !important;
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .project_box {
+    max-width: 250px !important;
+    height: 350px !important;
+  }
+}
+
 .arrows {
   width: 15.87px;
+  height: 50px;
 }
 
 .arrows path {
@@ -113,4 +146,9 @@ p {
 .arrows path.a3 {
   animation-delay: 0s;
   -webkit-animation-delay: 0s;
+}
+
+.project_box:hover {
+  box-shadow: #d4cece 3px 3px 3px 1px;
+  cursor: pointer;
 }
