@@ -91,7 +91,7 @@ export default function Home() {
             wordBreak: "break-word",
           }}
         >
-          <h1>Portfolio</h1>
+          <h1 style={{ fontSize: 75 }}>Portfolio</h1>
         </div>
       </div>
     </>
