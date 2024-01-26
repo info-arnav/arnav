@@ -32,22 +32,13 @@ export default function Navigation() {
               marginLeft: 15,
             }}
           >
-            <span
-              style={{
-                backgroundColor: "#939393",
-                height: 21.28,
-                width: 21.28,
-                borderRadius: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
+            <Link href="/">
               <span
+                className="logo"
                 style={{
-                  backgroundColor: "#474747",
-                  height: 15.28,
-                  width: 15.28,
+                  backgroundColor: "#939393",
+                  height: 21.28,
+                  width: 21.28,
                   borderRadius: "100%",
                   display: "flex",
                   alignItems: "center",
@@ -56,17 +47,29 @@ export default function Navigation() {
               >
                 <span
                   style={{
-                    backgroundColor: "#252525",
-                    height: 10,
-                    width: 10,
+                    backgroundColor: "#474747",
+                    height: 15.28,
+                    width: 15.28,
                     borderRadius: "100%",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                   }}
-                ></span>
+                >
+                  <span
+                    style={{
+                      backgroundColor: "#252525",
+                      height: 10,
+                      width: 10,
+                      borderRadius: "100%",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  ></span>
+                </span>
               </span>
-            </span>
+            </Link>
           </div>
 
           <div

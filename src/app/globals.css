@@ -6,9 +6,15 @@
   color: #252525 !important;
 }
 
+nav {
+  background-color: white;
+  z-index: 111;
+}
+
 .navLink:hover {
   color: gray;
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .navLink {
@@ -39,6 +45,9 @@ p {
 @media only screen and (max-width: 800px) {
   .banner {
     display: block !important;
+  }
+  .banner {
+    min-height: 0px !important;
   }
   .banner * {
     text-align: center;
@@ -142,7 +151,53 @@ p {
   -webkit-animation-delay: 0s;
 }
 
+* {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 .project_box:hover {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
   box-shadow: #d4cece 3px 3px 3px 1px;
+}
+
+.logo:hover {
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+}
+
+footer {
+  padding: 10px;
+}
+
+footer a {
   cursor: pointer;
+}
+
+footer *:hover {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+footer *:hover p {
+  width: 80px !important;
+}
+
+footer a div p {
+  margin-bottom: 0px;
+}
+
+footer a div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

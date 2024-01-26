@@ -18,7 +18,7 @@ export default function Diary() {
         onChange={(e) => setDate(e.target.value)}
         style={{ marginBottom: 20 }}
       ></input>
-      <p>Dear Diary,</p>
+      <p style={{ minHeight: "calc(100vh - 200px)" }}>Dear Diary,</p>
     </>
   );
 }

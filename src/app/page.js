@@ -6,7 +6,7 @@ export default function Home() {
       <div
         style={{
           display: "flex",
-          minHeight: "calc(100vh - 200px)",
+          minHeight: "calc(100vh - 180px)",
           alignItems: "center",
           justifyContent: "center",
         }}
@@ -57,7 +57,7 @@ export default function Home() {
           flexDirection: "column",
         }}
       >
-        <p>Projects Coming Up</p>
+        <p>Projects</p>
         <svg class="arrows" style={{ marginTop: 10 }}>
           <path class="a1" d="M0 0 L7.935 7.935 L15.87 0"></path>
           <path class="a2" d="M0 10 L7.935 17.935 L15.87 10"></path>
@@ -70,7 +70,7 @@ export default function Home() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          minHeight: "calc(100vh - 200px)",
+          minHeight: "calc(100vh - 300px)",
           flexDirection: "column",
         }}
       >
@@ -90,7 +90,6 @@ export default function Home() {
                 flex: 1,
                 maxWidth: 250,
                 height: 350,
-                margin: 10,
                 padding: 20,
                 backgroundColor: "#D9D9D9",
                 display: "flex",
@@ -173,7 +172,7 @@ export default function Home() {
             >
               <p style={{ fontWeight: "bold" }}>DaisForAll</p>
               <p style={{ fontSize: 14 }}>
-                A article sharing site, usually used by my family and friends.
+                An article sharing site, usually used by my family and friends.
               </p>
               <div
                 style={{
@@ -186,6 +185,22 @@ export default function Home() {
             </div>
           </a>
         </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+          marginTop: 50,
+        }}
+      >
+        <p>Wanna Connect ?</p>
+        <svg class="arrows" style={{ marginTop: 10 }}>
+          <path class="a1" d="M0 0 L7.935 7.935 L15.87 0"></path>
+          <path class="a2" d="M0 10 L7.935 17.935 L15.87 10"></path>
+          <path class="a3" d="M0 20 L7.935 27.935 L15.87 20"></path>
+        </svg>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 export default function BoxElement() {
   return (
-    <a href="https://https://www.itsdope.in/">
+    <a href="https://www.itsdope.in/">
       <div
         className="project_box"
         style={{
