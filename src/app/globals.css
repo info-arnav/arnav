@@ -58,12 +58,6 @@ p {
   }
 }
 
-@media only screen and (max-width: 1000px) {
-  .project_grid {
-    flex-direction: column !important;
-  }
-}
-
 @media only screen and (max-width: 850px) {
   .interchanged_one {
     display: none !important;
