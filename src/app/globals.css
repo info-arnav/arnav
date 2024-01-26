@@ -16,12 +16,38 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-  .home_banner {
+h1 {
+  font-weight: bold;
+  font-size: 109.08px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
     display: block !important;
   }
   .avatar {
     max-width: 400px !important;
+  }
+  .banner * {
+    text-align: center;
+  }
+  h1 {
+    font-size: 60px;
   }
 }
 

@@ -8,7 +8,7 @@ export default function Home() {
           alignItems: "center",
           justifyContent: "center",
         }}
-        className="home_banner"
+        className="home_banner banner"
       >
         <div
           style={{
@@ -35,27 +35,8 @@ export default function Home() {
             padding: 20,
           }}
         >
-          <h1
-            style={{
-              fontWeight: "bold",
-              fontSize: 109.08,
-              lineHeight: 1,
-              marginBottom: 5,
-            }}
-          >
-            Hi! I am Arnav
-          </h1>
-          <h2
-            style={{
-              fontSize: 16,
-              fontWeight: 500,
-              textTransform: "uppercase",
-              letterSpacing: 7,
-              marginBottom: 10,
-            }}
-          >
-            Welcome to my website
-          </h2>
+          <h1>Hi! I am Arnav</h1>
+          <h2>Welcome to my website</h2>
           <p style={{ marginTop: 10, fontSize: 16 }}>
             So, I'm a tech junkie caught in the awkward dance of
             not-quite-a-teen, not-quite-an-adult. Life's a puzzle, and I'm the
@@ -78,7 +59,7 @@ export default function Home() {
           alignItems: "center",
           justifyContent: "center",
         }}
-        className="portfolio_banner"
+        className="portfolio_banner banner"
       >
         <div
           style={{
@@ -104,16 +85,7 @@ export default function Home() {
             padding: 20,
           }}
         >
-          <h1
-            style={{
-              fontWeight: "bold",
-              fontSize: 109.08,
-              lineHeight: 1,
-              marginBottom: 5,
-            }}
-          >
-            Portfolio
-          </h1>
+          <h1>Portfolio</h1>
         </div>
       </div>
     </>
