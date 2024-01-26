@@ -13,6 +13,7 @@ export default function Home() {
         <div
           style={{
             flex: 1,
+            maxWidth: "50%",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -29,6 +30,7 @@ export default function Home() {
         <div
           style={{
             flex: 1,
+            maxWidth: "50%",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -37,7 +39,7 @@ export default function Home() {
         >
           <h1>Hi! I am Arnav</h1>
           <h2>Welcome to my website</h2>
-          <p style={{ marginTop: 10, fontSize: 16 }}>
+          <p>
             So, I'm a tech junkie caught in the awkward dance of
             not-quite-a-teen, not-quite-an-adult. Life's a puzzle, and I'm the
             guy trying to assemble it with mismatched pieces. Buckle up, 'cause
@@ -64,6 +66,7 @@ export default function Home() {
         <div
           style={{
             flex: 1,
+            maxWidth: "50%",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -79,10 +82,13 @@ export default function Home() {
         <div
           style={{
             flex: 1,
+            maxWidth: "50%",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             padding: 20,
+            overflow: "hidden",
+            wordBreak: "break-word",
           }}
         >
           <h1>Portfolio</h1>

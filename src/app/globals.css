@@ -40,11 +40,12 @@ p {
   .banner {
     display: block !important;
   }
-  .avatar {
-    max-width: 400px !important;
-  }
   .banner * {
     text-align: center;
+    max-width: 100% !important;
+  }
+  .avatar {
+    max-width: 400px !important;
   }
   h1 {
     font-size: 60px;
