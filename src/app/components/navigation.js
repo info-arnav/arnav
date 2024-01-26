@@ -71,35 +71,6 @@ export default function Navigation() {
               </span>
             </Link>
           </div>
-
-          <div
-            className="navLink"
-            style={{
-              fontSize: 14,
-              fontWeight: "400",
-              borderBottomStyle: pathname == "/" ? "solid" : "none",
-              borderBottomWidth: 1,
-              borderBottomColor: "black",
-              textDecorationThickness: 1,
-              textTransform: "uppercase",
-            }}
-          >
-            <Link href="/">Home</Link>
-          </div>
-          <div
-            className="navLink"
-            style={{
-              fontSize: 14,
-              fontWeight: "400",
-              borderBottomStyle: pathname == "/diary" ? "solid" : "none",
-              borderBottomWidth: 1,
-              borderBottomColor: "black",
-              textDecorationThickness: 1,
-              textTransform: "uppercase",
-            }}
-          >
-            <Link href="/diary">Diary</Link>
-          </div>
         </div>
       </center>
     </nav>
