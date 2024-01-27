@@ -21,6 +21,14 @@ export const metadata = {
     siteName: "Arnav Gupta",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://www.arnavgupta.net/meta/opengraph-image.jpg",
+        width: 250,
+        height: 250,
+        alt: "Arnav Guptas Avatar Under a Lid",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -28,6 +36,10 @@ export const metadata = {
     description:
       "Arnav's Tech Hub - Uncover my latest projects, insightful blogs, innovative apps, and must-visit sites. Delve into the world of tech exploration and stay updated with the latest in technology trends!",
     creator: "@arnav9560000",
+    images: {
+      url: "https://www.arnavgupta.net/meta/twitter-image.jpg",
+      alt: "Arnav Guptas Avatar Under a Lid",
+    },
   },
 };
 
