@@ -4,8 +4,8 @@
 
 * {
   color: #252525 !important;
+  font-size: 14px;
 }
-
 nav {
   background-color: white;
   z-index: 111;
@@ -15,6 +15,13 @@ nav {
   color: gray;
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.logout:hover {
+  color: gray;
+  cursor: pointer;
+  transform: scale(1.1);
+  text-decoration: underline;
 }
 
 .navLink {
@@ -41,7 +48,14 @@ p {
   font-size: 16px;
   margin-bottom: 15px;
 }
-
+@media only screen and (max-width: 1000px) {
+  .admin-header-left {
+    margin-left: 15px !important;
+  }
+  .admin-header-right {
+    margin-right: 15px !important;
+  }
+}
 @media only screen and (max-width: 800px) {
   .banner {
     display: block !important;
@@ -200,4 +214,50 @@ footer a div {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.auth_button:hover {
+  box-shadow: #d4cece 3px 3px 3px 1px;
+  background-color: #414141 !important;
+}
+
+.error_message {
+  color: red !important;
+  font-weight: bold;
+}
+
+.loading * {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+textarea {
+  margin: none;
+  outline: none;
+  border-left: solid #252525;
+  padding: 10px;
+  width: 100%;
+  min-height: 100%;
+  flex: 1;
+  resize: none;
+  overflow: auto;
+  min-height: 200px;
+}
+
+.save:hover {
+  background-color: #d4cece;
+}
+
+p,
+textarea {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.admin-header-left {
+  margin: 0 !important;
 }

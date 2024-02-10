@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import BoxElement from "./components/grid_block";
 
 export default function Home() {
@@ -58,10 +59,10 @@ export default function Home() {
         }}
       >
         <p>Projects</p>
-        <svg class="arrows" style={{ marginTop: 10 }}>
-          <path class="a1" d="M0 0 L7.935 7.935 L15.87 0"></path>
-          <path class="a2" d="M0 10 L7.935 17.935 L15.87 10"></path>
-          <path class="a3" d="M0 20 L7.935 27.935 L15.87 20"></path>
+        <svg className="arrows" style={{ marginTop: 10 }}>
+          <path className="a1" d="M0 0 L7.935 7.935 L15.87 0"></path>
+          <path className="a2" d="M0 10 L7.935 17.935 L15.87 10"></path>
+          <path className="a3" d="M0 20 L7.935 27.935 L15.87 20"></path>
         </svg>
       </div>
       <div
@@ -196,12 +197,15 @@ export default function Home() {
         }}
       >
         <p>Wanna Connect ?</p>
-        <svg class="arrows" style={{ marginTop: 10 }}>
-          <path class="a1" d="M0 0 L7.935 7.935 L15.87 0"></path>
-          <path class="a2" d="M0 10 L7.935 17.935 L15.87 10"></path>
-          <path class="a3" d="M0 20 L7.935 27.935 L15.87 20"></path>
+        <svg className="arrows" style={{ marginTop: 10 }}>
+          <path className="a1" d="M0 0 L7.935 7.935 L15.87 0"></path>
+          <path className="a2" d="M0 10 L7.935 17.935 L15.87 10"></path>
+          <path className="a3" d="M0 20 L7.935 27.935 L15.87 20"></path>
         </svg>
       </div>
+      <center>
+        <Footer></Footer>
+      </center>
     </>
   );
 }
