@@ -44,7 +44,9 @@ export default function MiddleWare({ cookie }) {
             flexDirection: "column",
           }}
         >
-          {/* <Image src="/assets/loader.svg" height={70} width={70}></Image> */}
+          {/*
+            <Image src="/assets/loader.svg" height={70} width={70}></Image>
+          */}
         </div>
       )}
     </>

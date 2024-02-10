@@ -29,6 +29,7 @@ export default function Compromised({ setSecure }) {
           <h2 style={{ textDecoration: error ? "line-through" : "none" }}>
             It's you only right ??
           </h2>
+          <input value="info@arnavgupta.net" type="email" hidden></input>
           <input
             placeholder="Secret"
             style={{
