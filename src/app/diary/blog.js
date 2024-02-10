@@ -119,6 +119,7 @@ export default function Blog() {
                   post[0].comments.toReversed().map((e) => {
                     return (
                       <p
+                        key={e}
                         style={{
                           fontSize: 14,
                         }}
