@@ -12,6 +12,8 @@ export const metadata = {
   description:
     "Arnav's Tech Hub - Uncover my latest projects, insightful blogs, innovative apps, and must-visit sites. Delve into the world of tech exploration and stay updated with the latest in technology trends!",
   manifest: "https://www.arnavgupta.net/manifest.json",
+  keywords:
+    "Arnav, Gupta, NSUT, Blogs, Portfolio, Personal, Site, Amity, Wunderman, Thomposon, Commerce, VML, WTC",
   openGraph: {
     title: "Arnav Gupta",
     description:
