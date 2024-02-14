@@ -73,6 +73,7 @@ export default function Blog() {
         <div style={{ marginTop: 20 }}>
           {post.length > 0 && post[0].post ? (
             <p
+              style={{ overflowWrap: "break-word" }}
               dangerouslySetInnerHTML={{
                 __html: post[0].post.replaceAll("\n", "<br>"),
               }}
