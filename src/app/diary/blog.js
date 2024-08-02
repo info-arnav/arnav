@@ -4,16 +4,17 @@ import { useEffect, useState } from "react";
 import { getPost } from "./post";
 import { postComment } from "./comment";
 
-export default function Blog() {
+export default function Blog({ gdate }) {
   const [post, setPost] = useState("");
   const [loading, setLoading] = useState(true);
   const [comment, setComment] = useState("");
   const [posting, setPosting] = useState(false);
   const [date, setDate] = useState(
-    `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(
-      2,
-      "0"
-    )}-${String(new Date().getDate()).padStart(2, "0")}`
+    gdate ||
+      `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(
+        2,
+        "0"
+      )}-${String(new Date().getDate()).padStart(2, "0")}`
   );
   const addComment = async (date, comment) => {
     setPosting(true);
