@@ -36,9 +36,9 @@ export default function Blog({ gdate }) {
               </div>
             );
           })}
+          {posts.length == 0 && <>Wait for Arnav to write something.</>}
         </div>
       )}
-      {!posts && <>Wait for Arnav to write something.</>}
     </div>
   );
 }
