@@ -25,7 +25,7 @@ export default function Blog({ gdate }) {
         <div style={{ marginTop: 20 }}>
           {posts.map((post) => {
             return (
-              <div>
+              <div key={post?.date}>
                 <p>{post?.date}</p>
                 <p
                   style={{ overflowWrap: "break-word" }}
