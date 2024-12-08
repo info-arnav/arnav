@@ -38,7 +38,7 @@ export default function Blog({ gdate }) {
           })}
         </div>
       )}
-      ;
+      {!posts && <>Wait for Arnav to write something.</>}
     </div>
   );
 }
