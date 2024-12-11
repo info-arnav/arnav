@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { logout } from "./authenticate";
 import { createPost } from "./update";
-import { getPost } from "../diary/post";
+import { getPost } from "./post";
 
 export default function Secure() {
   const [blog, setBlog] = useState("");
